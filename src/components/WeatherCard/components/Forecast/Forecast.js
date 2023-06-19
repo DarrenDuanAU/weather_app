@@ -1,6 +1,11 @@
+import DayOfWeek from './DayOfWeek'
+
 const Forecast = () => {
   return (
-    <div>Forecast</div>
+    <>
+      <DayOfWeek />
+      <DayOfWeek />
+    </>
   )
 }
-export default Forecast
+export default Forecast;

@@ -1,6 +1,12 @@
+import City from "./City"
+
 const OtherCities = () => {
   return (
-    <div>OtherCities</div>
+    <>
+      <City />
+      <City />
+      <City />
+    </>
   )
 }
 export default OtherCities;
